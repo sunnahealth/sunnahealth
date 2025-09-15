@@ -212,7 +212,7 @@ function About() {
             {/* Bottom Footer */}
             <div className="flex justify-center">
               <p className="font-['Poppins'] font-light text-[14px] leading-[21px] text-[rgba(0,0,0,0.6)] text-right lg:text-left">
-                © 2000-2021, All rights reserved
+                © 2000-2025, All rights reserved
               </p>
             </div>
           </div>
