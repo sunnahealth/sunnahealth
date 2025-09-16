@@ -8,8 +8,8 @@ import { Footer } from "../components/ui/Footer";
 
 // Import product images
 import mapleIceCreamProtein from "../assets/images/product/Maple_Ice_Cream_Protein.png";
-import collagenLogo from "../assets/images/product/Collagen_Logo.png";
-import boneBrothLogo from "../assets/images/product/BoneBrothLogo.png";
+import collagenSupplement from "../assets/images/product/Collagen_Logo.png";
+import boneBrothSupplement from "../assets/images/product/BoneBrothLogo.png";
 
 
 function Home() {
@@ -169,13 +169,13 @@ function Home() {
               {/* Collagen / Gelatin */}
               <Product
                 name="Collagen / Gelatin"
-                imageUrl={collagenLogo}
+                imageUrl={collagenSupplement}
               />
               
               {/* Bone Broth Supplement */}
               <Product
                 name="Bone Broth Supplement"
-                imageUrl={boneBrothLogo}
+                imageUrl={boneBrothSupplement}
               />
             </div>
           </div>
