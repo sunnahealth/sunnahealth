@@ -9,6 +9,8 @@ import { Footer } from "../components/ui/Footer";
 // Import product images
 import mapleIceCreamProtein from "../assets/images/product/Maple_Ice_Cream_Protein.png";
 import collagenLogo from "../assets/images/product/Collagen_Logo.png";
+import boneBrothLogo from "../assets/images/product/BoneBrothLogo.png";
+
 
 function Home() {
   // Sample review data
@@ -157,6 +159,7 @@ function Home() {
 
             {/* Products Grid */}
             <div className="flex flex-wrap justify-center gap-4 md:gap-6 lg:gap-8 px-4">
+              
               {/* Protein Powder */}
               <Product
                 name="Protein Powder"
@@ -172,7 +175,7 @@ function Home() {
               {/* Bone Broth Supplement */}
               <Product
                 name="Bone Broth Supplement"
-                imageUrl={mapleIceCreamProtein}
+                imageUrl={boneBrothLogo}
               />
             </div>
           </div>
