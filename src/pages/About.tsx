@@ -55,7 +55,7 @@ function About() {
                 About Us
               </h1>
               <p className="font-['Poppins'] font-semibold text-[14px] leading-[21px] lg:text-[24px] lg:leading-[36px] text-[#171717]">
-                Lorem ipsum dolor sit amet consectetur. Non at arcu nisl et egestas. Facilisis velit cras tristique vitae cras nulla. In ultrices et id gravida adipiscing congue nec.
+               jjjjj
               </p>
             </div>
             <button className="bg-[#171717] text-white font-['Poppins'] font-medium text-[14px] lg:text-[16px] leading-[21px] lg:leading-[24px] px-[54px] py-4 rounded-[62px] hover:bg-[#333] transition-colors">
