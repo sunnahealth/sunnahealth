@@ -8,6 +8,7 @@ import { Footer } from "../components/ui/Footer";
 
 // Import product images
 import mapleIceCreamProtein from "../assets/images/product/Maple_Ice_Cream_Protein.png";
+import collagenLogo from "../assets/images/product/Collagen_Logo.png";
 
 function Home() {
   // Sample review data
@@ -165,7 +166,7 @@ function Home() {
               {/* Collagen / Gelatin */}
               <Product
                 name="Collagen / Gelatin"
-                imageUrl={mapleIceCreamProtein}
+                imageUrl={collagenLogo}
               />
               
               {/* Bone Broth Supplement */}
