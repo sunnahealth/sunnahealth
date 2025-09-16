@@ -42,6 +42,7 @@ export function Footer() {
                 </h4>
                 <div className="flex flex-col gap-2">
                   <a href="/about" className="font-['Poppins'] font-light text-sm md:text-base leading-4 md:leading-5 text-[rgba(0,0,0,0.6)]">About Us</a>
+                  <a href="#" className="font-['Poppins'] font-light text-[14px] lg:text-[16px] leading-[16px] lg:leading-[19px] text-[rgba(0,0,0,0.6)]">Contact Us</a>
                 </div>
               </div>
               
