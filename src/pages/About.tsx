@@ -9,18 +9,20 @@ function About() {
   const sectionData = [
     {
       id: 1,
-      title: "Developing Confident and Healthy Individuals",
-      description: "At SUNNAHEALTH, we believe that wellness begins with trust. Our halal-certified protein powder is designed to empower your fitness journey—supporting muscle growth, recovery, and overall vitality. Whether you're training hard or simply staying active, our clean, high-quality formula helps you feel strong, energized, and proud of what fuels you."
+      title: "Healthy and Delicious?",
+      description: "Healthy choices should never feel like a compromise. That’s why our protein powder blends premium nutrition with rich, satisfying flavors. No artificial additives, no highly processed ingredients, and only natural sources of sweetness; from earth to your hands)"
+        
     },
     {
       id: 2,
-      title: "Enjoy a Unique and Delicious Experience",
-      description: "Healthy choices should never feel like a compromise. That's why our protein powder blends premium nutrition with rich, satisfying flavors. From creamy vanilla to bold chocolate, each scoop is crafted to delight your taste buds while delivering the protein your body needs. No artificial additives, no shortcuts—just pure, halal-certified goodness."
+      title: "Developing Confident and Healthy Individuals",
+      description: " At SUNNAHEALTH, we believe that wellness begins with trust. Whether you’re training hard or simply staying active, our clean, high-quality formulas help you feel strong, energized, and proud of what fuels you. We also believe in supporting each other’s businesses as Muslims."
+"
     },
     {
       id: 3,
-      title: "Passionate Commitment to Quality",
-      description: "We're not just a supplement—we're a commitment to clean, halal-certified nutrition. Made with responsibly sourced ingredients and transparent processes, our protein powder reflects your values while supporting your goals with confidence."
+      title: "Quality Avenue",
+      description: "Our supplements are among the first to be offered in a halal form. This means you receive the highest quality, made with responsibly sourced ingredients and through transparent processes."
     }
   ];
 
@@ -54,8 +56,7 @@ function About() {
               <h1 className="font-['Poppins'] font-bold text-[24px] leading-[36px] lg:text-[40px] lg:leading-[60px] text-[#000000] mb-4 lg:mb-6">
                 About Us
               </h1>
-              <p className="font-['Poppins'] font-semibold text-[14px] leading-[21px] lg:text-[24px] lg:leading-[36px] text-[#171717]">
-               jjjjj
+              <p className="font-['Poppins'] font-semibold text-[14px] leading-[21px] lg:text-[24px] lg:leading-[36px] text-[#171717]">Our health is among the sunnahs of the Prophet Muhammad (SWS). Take care of your body, as it is an amanah that we all have to return. Equip yourself with strength, and control yourself with discipline. Only exert this power for good and when the time requires. Build your body; and your soul. You are a warrior of The Most High. 
               </p>
             </div>
             <button className="bg-[#171717] text-white font-['Poppins'] font-medium text-[14px] lg:text-[16px] leading-[21px] lg:leading-[24px] px-[54px] py-4 rounded-[62px] hover:bg-[#333] transition-colors">
@@ -70,7 +71,7 @@ function About() {
         <Container>
           <div className="flex flex-col items-center gap-4">
             <h2 className="font-['Poppins'] font-semibold text-[30px] leading-[45px] lg:text-[45px] lg:leading-[68px] text-center text-[#000000] max-w-[352px] lg:max-w-[876px]">
-              Preparing Athletes to Achieve Success
+              Our Differences are our Success
             </h2>
             <div className="w-[283.63px] lg:w-[283.63px] h-[3px] lg:h-[40px] bg-[#C1C1C1] rounded-full"></div>
           </div>
@@ -143,8 +144,7 @@ function About() {
                   </h4>
                   <div className="flex flex-col gap-2">
                     <a href="#" className="font-['Poppins'] font-light text-[14px] lg:text-[16px] leading-[16px] lg:leading-[19px] text-[rgba(0,0,0,0.6)]">About</a>
-                    <a href="#" className="font-['Poppins'] font-light text-[14px] lg:text-[16px] leading-[16px] lg:leading-[19px] text-[rgba(0,0,0,0.6)]">Features</a>
-                    <a href="#" className="font-['Poppins'] font-light text-[14px] lg:text-[16px] leading-[16px] lg:leading-[19px] text-[rgba(0,0,0,0.6)]">Works</a>
+                    <a href="#" className="font-['Poppins'] font-light text-[14px] lg:text-[16px] leading-[16px] lg:leading-[19px] text-[rgba(0,0,0,0.6)]">Contact Us</a>
                   </div>
                 </div>
 
@@ -159,28 +159,7 @@ function About() {
                   </div>
                 </div>
 
-                <div className="flex flex-col gap-4 lg:hidden">
-                  <h4 className="font-['Poppins'] font-normal text-[14px] leading-[18px] uppercase tracking-[3px] text-[#000000]">
-                    FAQ
-                  </h4>
-                  <div className="flex flex-col gap-2">
-                    <a href="#" className="font-['Poppins'] font-light text-[14px] leading-[16px] text-[rgba(0,0,0,0.6)]">Account</a>
-                    <a href="#" className="font-['Poppins'] font-light text-[14px] leading-[16px] text-[rgba(0,0,0,0.6)]">Manage Deliveries</a>
-                    <a href="#" className="font-['Poppins'] font-light text-[14px] leading-[16px] text-[rgba(0,0,0,0.6)]">Orders</a>
-                  </div>
-                </div>
-
-                <div className="flex flex-col gap-4 lg:hidden">
-                  <h4 className="font-['Poppins'] font-normal text-[14px] leading-[18px] uppercase tracking-[3px] text-[#000000]">
-                    Resources
-                  </h4>
-                  <div className="flex flex-col gap-2">
-                    <a href="#" className="font-['Poppins'] font-light text-[14px] leading-[16px] text-[rgba(0,0,0,0.6)]">Free eBooks</a>
-                    <a href="#" className="font-['Poppins'] font-light text-[14px] leading-[16px] text-[rgba(0,0,0,0.6)]">Development Tutorial</a>
-                    <a href="#" className="font-['Poppins'] font-light text-[14px] leading-[16px] text-[rgba(0,0,0,0.6)]">How to - Blog</a>
-                  </div>
-                </div>
-
+    
                 {/* Desktop additional columns */}
                 <div className="hidden lg:flex flex-col gap-4">
                   <h4 className="font-['Poppins'] font-medium text-[16px] leading-[18px] uppercase tracking-[3px] text-[#171717]">
