@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Header } from "../components/layout/Header";
 import { Container } from "../components/layout/Container";
 import { Newsletter } from "../components/ui/Newsletter";
@@ -10,7 +9,7 @@ function About() {
     {
       id: 1,
       title: "Healthy and Delicious?",
-      description: "Healthy choices should never feel like a compromise. That’s why our protein powder blends premium nutrition with rich, satisfying flavors. No artificial additives, no highly processed ingredients, and only natural sources of sweetness; from earth to your hands)"
+      description: "Healthy choices should never feel like a compromise. That’s why our protein powder blends premium nutrition with rich, satisfying flavors. No artificial additives, no highly processed ingredients, and only natural sources of sweetness; from earth to your hands."
         
     },
     {
